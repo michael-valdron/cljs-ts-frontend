@@ -1,6 +1,8 @@
 {
   "name": "cljs-ts-frontend",
   "version": "0.0.1",
+  "author": "Michael Valdron",
+  "license": "MIT",
   "private": true,
   "devDependencies": {
     "shadow-cljs": "2.11.23",
