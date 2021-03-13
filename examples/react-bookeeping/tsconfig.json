@@ -1,9 +1,11 @@
 {
     "compilerOptions": {
         "outDir": "dist/main",
+        "sourceMap": true,
+        "rootDir": "src/main/ts",
         "jsx": "react-jsx"
     },
     "include": [
-        "src/main/ts"
+        "src"
     ]
 }
