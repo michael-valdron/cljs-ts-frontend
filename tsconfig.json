@@ -1,8 +1,10 @@
 {
     "compilerOptions": {
-        "outDir": "dist/main"
+        "outDir": "dist/main",
+        "sourceMap": true,
+        "rootDir": "src/main/ts",
     },
     "include": [
-        "src/main/ts"
+        "src"
     ]
 }
