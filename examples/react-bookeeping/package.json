@@ -1,6 +1,8 @@
 {
   "name": "react-bookeeping",
   "version": "0.0.1",
+  "author": "Michael Valdron",
+  "license": "MIT",
   "private": true,
   "devDependencies": {
     "@types/node": "14.14.34",
