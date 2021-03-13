@@ -1,0 +1,22 @@
+{
+  "name": "cljs-ts-frontend",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "shadow-cljs": "2.11.23",
+    "typescript": "4.2.3",
+    "ts-node": "9.1.1",
+
+    "@types/node": "14.14.34"
+  },
+  "dependencies": {},
+  "scripts": {
+    "start": "yarn build && shadow-cljs watch app",
+    "watch-ts": "tsc --watch",
+    "build": "tsc",
+    "build-test": "tsc --project tsconfig.test.json",
+    "cljs-repl": "shadow-cljs node-repl",
+    "ts-repl": "ts-node --interactive --skip-project --pretty",
+    "clean": "rm -rf dist/ public/js/"
+  }
+}
