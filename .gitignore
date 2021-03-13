@@ -1,10 +1,12 @@
 node_modules/
 public/js
+/**/public/js
 
-/dist
-/target
-/checkouts
-/src/gen
+dist
+target
+checkouts
+src/gen
+/**/src/gen
 
 pom.xml
 pom.xml.asc
@@ -21,3 +23,4 @@ pom.xml.asc
 .hg/
 
 .lsp/
+.calva
