@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/main",
+        "jsx": "react-jsx"
+    },
+    "include": [
+        "src/main/ts"
+    ]
+}
