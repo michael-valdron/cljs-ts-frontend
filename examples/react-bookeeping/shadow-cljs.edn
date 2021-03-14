@@ -13,7 +13,7 @@
   [com.andrewmcveigh/cljs-time "0.5.2"]
   [clojure-interop/cljs-web-api "1.0.10"]]
 
- :dev-http {8080 "public"}
+ :dev-http {8080 {:root "./public"}}
 
  :builds
  {:app {:target :browser
