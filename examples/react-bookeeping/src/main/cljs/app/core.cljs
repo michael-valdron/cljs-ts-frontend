@@ -8,8 +8,10 @@
             [app.db :as db]
             [reagent.core :as r]
             [reagent.dom :as rd]
-            [web.url.URL :as url]))
+            [web.url.URL :as url]
+            [web.Document :as doc]))
 
+(defonce app-title "Bookeeping")
 (defonce app-state (r/atom {}))
 
 (defn- trim-query!
@@ -19,13 +21,16 @@
 
 (defmulti current-page #(get-in @app-state [:page :name]))
 (defmethod current-page :home []
-  (do (when (-> @app-state (get-in [:page :query]) (db/query!))
+  (do (doc/set-title! js/document (str app-title " - Home"))
+      (when (-> @app-state (get-in [:page :query]) (db/query!))
         (trim-query!))
       [pages/home]))
 (defmethod current-page :add-book []
-  [pages/add-book])
+  (do (doc/set-title! js/document (str app-title " - Add Book"))
+      [pages/add-book]))
 (defmethod current-page :not-found []
-  [pages/not-found])
+  (do (doc/set-title! js/document (str app-title " - 404 Error"))
+      [pages/not-found]))
 
 (defn ^:dev/after-load init
   []
