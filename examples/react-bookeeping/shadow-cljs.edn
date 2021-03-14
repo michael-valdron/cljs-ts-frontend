@@ -9,10 +9,12 @@
 
  :dependencies
  [[reagent "1.0.0"]
-  [funcool/bide "1.6.0"]]
+  [funcool/bide "1.6.0"]
+  [com.andrewmcveigh/cljs-time "0.5.2"]
+  [clojure-interop/cljs-web-api "1.0.10"]]
 
  :dev-http {8080 "public"}
 
  :builds
  {:app {:target :browser
-        :modules {:main {:init-fn core/init}}}}}
+        :modules {:main {:init-fn app.core/init}}}}}
