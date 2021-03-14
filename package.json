@@ -20,6 +20,6 @@
     "deps": "shadow-cljs npm-deps",
     "cljs-repl": "shadow-cljs node-repl",
     "ts-repl": "ts-node --interactive --skip-project --pretty",
-    "clean": "rm -rf dist/ public/js/"
+    "clean": "rm -rf target/ public/js/"
   }
 }

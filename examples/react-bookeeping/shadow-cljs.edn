@@ -1,11 +1,11 @@
 ;; shadow-cljs configuration
 {:source-paths
  ["src/dev/cljs"
-  "dist/dev"
+  "target/dev"
   "src/main/cljs"
-  "dist/main"
+  "target/main"
   "src/test/cljs"
-  "dist/test"]
+  "target/test"]
 
  :dependencies
  [[reagent "1.0.0"]

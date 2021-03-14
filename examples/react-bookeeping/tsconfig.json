@@ -7,7 +7,7 @@
             "ES6"
         ],
         "moduleResolution": "node",
-        "outDir": "dist/main",
+        "outDir": "target/main",
         "module": "commonjs",
         "allowJs": false,
         "skipLibCheck": true,
