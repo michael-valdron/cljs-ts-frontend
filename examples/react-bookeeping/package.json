@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@types/node": "14.14.34",
+    "@types/node": "24.10.1",
     "@types/react": "17.0.89",
     "@types/react-dom": "17.0.26",
     "shadow-cljs": "2.28.23",
