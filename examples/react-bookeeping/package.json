@@ -6,7 +6,7 @@
   "private": true,
   "devDependencies": {
     "@types/node": "24.10.1",
-    "@types/react": "17.0.89",
+    "@types/react": "17.0.90",
     "@types/react-dom": "17.0.26",
     "shadow-cljs": "2.28.23",
     "ts-node": "9.1.1",
