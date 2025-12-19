@@ -9,7 +9,7 @@
     "@types/react": "17.0.90",
     "@types/react-dom": "17.0.26",
     "shadow-cljs": "2.28.23",
-    "ts-node": "9.1.1",
+    "ts-node": "10.9.2",
     "typescript": "4.2.3"
   },
   "dependencies": {
