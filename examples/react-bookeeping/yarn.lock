@@ -19,10 +19,10 @@
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.26.tgz#fa7891ba70fd39ddbaa7e85b6ff9175bb546bc1b"
   integrity sha512-Z+2VcYXJwOqQ79HreLU/1fyQ88eXSSFh6I3JdrEHQIfYSI0kCQpTGvOrbE6jFGGYXKsHuwY9tBa/w5Uo6KzrEg==
 
-"@types/react@17.0.90":
-  version "17.0.90"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.90.tgz#38b72ea265c7ea369cf2998b406f850f6f665825"
-  integrity sha512-P9beVR/x06U9rCJzSxtENnOr4BrbJ6VrsrDTc+73TtHv9XHhryXKbjGRB+6oooB2r0G/pQkD/S4dHo/7jUfwFw==
+"@types/react@17.0.93":
+  version "17.0.93"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.93.tgz#1f8d44a7ea97fb0cbd3935235949d7fda43f64ea"
+  integrity sha512-KM4Ty/ZTLZupiYxZVAlP+InNJS3De6uBMdq0ePa6/04+eG9Y7ftnWfst1xTLQ5rwAhgHwQ4momt/O4KepdGBTw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "^0.16"
